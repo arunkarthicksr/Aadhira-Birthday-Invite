@@ -1,0 +1,123 @@
+// Global styling for this template
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+// Typography
+.text-white-75 {
+  color: fade-out($white, .25);
+}
+
+// Custom horizontal rules
+hr.divider {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: $primary;
+}
+
+hr.light {
+  border-color: $white;
+}
+
+// Button restyling
+.btn {
+  font-family: $font-family-sans-serif;
+}
+
+.btn-xl {
+  padding: 1.25rem 2.25rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+}
+
+// Page section padding
+.page-section {
+  padding: 8rem 0;
+}
+
+.addeventatcA.addeventatc {
+  padding: 1.25rem 2.25rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  z-index: 4;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+  font-family: $font-family-sans-serif;
+  color: #fff !important;
+  background-color: #f4623a !important;
+  border-color: #f4623a !important;
+  line-height: 1.5;
+  .addeventatc_icon {
+    background: none !important;
+  }
+
+}
+
+.addeventatcA.addeventatc:hover{
+  color: #fff !important;
+  background-color: #f24516 !important;
+  border-color: #ee3e0d !important;
+  font-size: 0.85rem !important;
+}
+
+.countdownDiv{
+    // if the image name change, make sure to update the url path below!
+    margin-top: 2em;
+    background: linear-gradient(to bottom, #{fade-out($brown, .2)} 0%,#{fade-out($brown, .2)} 100%), url('../img/bg-countdown.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+#services{
+  padding: 2rem 0;
+}
+
+.countdownheader{
+  color: #f4623a !important;
+  font-size: 3rem !important;
+}
+
+.masthead p{
+  font-size: 1.75rem;
+}
+
+
+.snow-sakura-bg {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  background-image: url('http://www.mcctours.com.my/wp-content/uploads/2018/01/sakura-1-1.png'), url('http://www.mcctours.com.my/wp-content/uploads/2018/01/sakura-2.png');
+   animation: snow 10s linear infinite;
+}
+
+@keyframes snow {
+0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+
+@media (max-width: 768px) {
+   .woocommerce ul.products li.product, 
+   .woocommerce-page ul.products li.product, 
+   .woocommerce-page[class*=columns-] ul.products li.product,
+   .woocommerce[class*=columns-] ul.products li.product {
+       width: 100%;
+       float: left;
+       clear: both;
+       margin: 0 7em;
+   }
+}

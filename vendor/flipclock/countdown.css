@@ -1,0 +1,16 @@
+.wrapper {
+  text-align: center;
+}
+.time {
+  color: #fff;
+  font-size: 3em;
+}
+.label {
+  font-size: 1em;
+  display: block;
+  color: #fff;
+}
+.countdown {
+  background-color: transparent !important;
+    min-height: 10em;
+}
