@@ -1,2 +1,2 @@
-# karthick-shilpa-wedding-invite
-Wedding Invitation - You are invited
+# Aadhira-birthday-invite
+Birthday Invitation - You are invited
