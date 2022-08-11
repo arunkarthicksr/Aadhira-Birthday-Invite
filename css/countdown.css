@@ -1,0 +1,14 @@
+.numbers{
+  margin-top: 0.25em;
+  margin-bottom: -0.9em;
+  font-size: 2em;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.strings{
+  margin-top: 0.05em;
+  margin-bottom: 0em;
+  font-size: 1em;
+  color: #ffffff;
+}
